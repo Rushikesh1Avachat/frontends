@@ -1,12 +1,11 @@
 import { Chip } from "@mui/material";
-import { getTaskStatus, getStatusColor } from "../utils/taskStatus";
+import { getTaskStatus } from "../utils/taskStatus";
 
 /**
  * Component to display task status with appropriate styling
  */
 const TaskStatusBadge = ({ task }) => {
   const status = getTaskStatus(task);
-  const color = getStatusColor(status);
 
   const statusConfig = {
     "In Progress": { label: "In Progress", color: "warning" },

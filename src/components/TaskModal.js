@@ -11,7 +11,6 @@ import {
   CircularProgress,
 } from "@mui/material";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
-import { formatDate } from "../utils/taskStatus.js";
 
 /**
  * Modal component for adding and editing tasks

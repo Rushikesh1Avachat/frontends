@@ -33,7 +33,6 @@ const TaskList = () => {
 
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedTask, setSelectedTask] = useState(null);
-  const [confirmDelete, setConfirmDelete] = useState(null);
 
   // Open modal for adding new task
   const handleAddTask = useCallback(() => {
